@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="container">
+            
+            <section class="top-navigation">
+                
+                <div class="top-nav-logo">
+                    <img src="assets/logo.png" alt="shourov foisal logo">
+                </div>
+                
+                <div id="ham-menu" class="top-nav-mobile-ham-menu" menuOpen="false">
+                    
+                    <div class="top-nav-mobile-menu-header">
+                        
+                        <div class="mobile-menu-logo">
+                            <img src="assets/logo_white.png" alt="shourov foisal logo">
+                        </div>
+                        
+                        <div class="mobile-menu-close-button">
+                            <button class="general-button no-border-button" onclick="handleMobileMenuToggle()">
+                                <div class="button-icon-vertical-adjustment"><ion-icon name="close-outline"></ion-icon></div>
+                            </button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="top-nav-mobile-link">
+                        <a href="#">About</a>
+                    </div>
+                    <div class="top-nav-mobile-link">
+                        <a href="#">Skills</a>
+                    </div>
+                    <div class="top-nav-mobile-link">
+                        <a href="#">Portfolio</a>
+                    </div>
+                    <div class="top-nav-mobile-link">
+                        <a href="#">Testimonials</a>
+                    </div>
+                </div>
+                
+                <div class="top-nav-mobile-extras">
+                    <div class="top-nav-ham-button-box">
+                        <button class="general-button" onclick="handleMobileMenuToggle()">
+                            <div class="button-icon-vertical-adjustment"><ion-icon name="menu-outline"></ion-icon></div>
+                        </button>
+                    </div>
+                    <div class="top-nav-mobile-cta-button-box">
+                        <button class="general-button text-icon-button">
+                            CV <div class="button-icon-vertical-adjustment"><ion-icon name="download-outline"></ion-icon></div>
+                    </button>
+                    </div>
+                </div>
+                
+                <div class="top-nav-links">
+                    <div class="top-nav-link">
+                        <a href="#">About</a>
+                    </div>
+                    <div class="top-nav-link">
+                        <a href="#">Skills</a>
+                    </div>
+                    <div class="top-nav-link">
+                        <a href="#">Portfolio</a>
+                    </div>
+                    <div class="top-nav-link">
+                        <a href="#">Testimonials</a>
+                    </div>
+                </div>
+                <div class="top-nav-cta-button-box">
+                    <button class="general-button">Download CV</button>
+                </div>
+            </section>
+            
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
